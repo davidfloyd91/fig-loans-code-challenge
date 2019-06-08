@@ -28,7 +28,7 @@ My response to this part:
 
 > BONUS: Write a Javascript validation (jQuery allowed) that takes in a password as an argument and will show a very clear error message if the password is not at least 8 characters and does not contain at least one letter, one number, and the % symbol.
 
-It's not actually written to take the password as an argument. For testing purposes I set `password` up so as a separate variable. But it could easily be refactored to do so.
+It's not actually written to take the password as an argument. For testing purposes I set `password` up as a separate variable. But it could easily be refactored to do so.
 
 ## password.html
 
@@ -41,4 +41,6 @@ Contains a bit of Ruby and SQL to set up a SQLite database I used to test the me
 ## first_database_ever.db
 
 The SQLite3 database I mentioned above. Honestly I meant to check this out of version control. You might need to delete it first if you want to run `seed.rb` and create/populate a DB.
+
+BTW the name is a funny-at-the-time play on the idea that we're setting up the first computer ever.
 
