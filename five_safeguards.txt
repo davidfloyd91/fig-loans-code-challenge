@@ -1,0 +1,9 @@
+Citizens won’t know to click the Submit button when they’re done to submit the information, so we’ll put a note next to the button telling them to click Submit when they're done.
+
+Citizens might miss that note or misunderstand, so we'll add a timer that begins when all fields are filled out. Once three seconds (or so) have elapsed, the system will alert the user to click Submit (probably within the alert) if they're done entering their information. (We'll also have a Back or Cancel option, which will also be explained.)
+
+Citizens might make a typo in their address and click submit, so we’ll display the information they entered once they're done (not the password), and ask them to double-check it.
+
+Citizens might make a typo in their password and never be able to log in again, so we'll have them enter it three times. I say three instead of two because there's no second chance (and I've made the same typo twice in a row plenty of times). They'll also only have to enter their information once ever, so it's a justifiable inconvenience.
+
+Citizens might click the Submit button too early (thinking they have to click it after each field is filled out, for example), so unless all fields are filled out, we'll display a message explaining that they should only submit once all fields are filled out.

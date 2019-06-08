@@ -1,0 +1,21 @@
+citizens have many messages as senders and recipients
+
+restrictions (max 5 messages and max 200 characters per week) only apply to citizens as senders
+
+_________________________
+|  Citizen              |
+|    :username          |
+|    :password_digest   |
+|    :address           |
+|_______________________|
+        |
+        | as :sender, :recipient
+        |
+       /|\
+______________________________
+|  Message                   |
+|    :sender_id              |
+|    :recipient_id           |
+|    :contents               |
+|    :time_sent              |
+|____________________________|
